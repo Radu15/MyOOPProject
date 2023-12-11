@@ -60,6 +60,7 @@ public class Main {
 
         Animal urs = new Animal("Barny", "albastra", false);
 
+
         caine.mananca();
         caine.doarme();
         System.out.println(caine.afiseaza());
@@ -67,6 +68,12 @@ public class Main {
         urs.mananca();
         urs.doarme();
         System.out.println(urs.afiseaza());
+
+        //  masina masina5=new masina();
+        //   System.out.println(masina5.marca);
+
+        //  masina masina6=new masina("tesla",2022);
+        //   System.out.println(masina6.marca+" ")
 
 
     }
