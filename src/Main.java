@@ -58,15 +58,15 @@ public class Main {
 
         Animal caine= new Animal("Rex","neagra",false);
 
-        Animal pisica = new Animal("Tom", "albastra",false);
+        Animal urs = new Animal("Barny", "albastra", false);
 
         caine.mananca();
         caine.doarme();
         System.out.println(caine.afiseaza());
 
-        pisica.mananca();
-        pisica.doarme();
-        System.out.println(pisica.afiseaza());
+        urs.mananca();
+        urs.doarme();
+        System.out.println(urs.afiseaza());
 
 
     }
