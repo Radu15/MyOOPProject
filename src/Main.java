@@ -93,6 +93,11 @@ public class Main {
         inotator1.seOdihneste();
 
 
+        Maratonist maratonist1 = new Maratonist();
+        maratonist1.seAntreneaza();
+        maratonist1.seOdihneste();
+
+
 
     }
 }
