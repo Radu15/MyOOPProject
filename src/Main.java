@@ -74,6 +74,24 @@ public class Main {
 
         //  masina masina6=new masina("tesla",2022);
         //   System.out.println(masina6.marca+" ")
+        Elev elev1 = new Elev("Ionescu");
+        Elev elev2 = new Elev("Popescu");
+        System.out.println(elev1.nume);
+        System.out.println(elev2.nume);
+        Elev.diriginte = "Pop";
+        System.out.println(Elev.diriginte);
+
+        elev1.metodastatica();
+        Elev.metodaStatica();
+
+        Film film1 = new Film();
+        film1.setTitlu("Titanic");
+        System.out.println(film1.getTitlu());
+
+        Inotator inotator1 = new Inotator();
+        inotator1.seAntreneaza();
+        inotator1.seOdihneste();
+
 
 
     }
