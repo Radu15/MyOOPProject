@@ -56,18 +56,18 @@ public class Main {
         // Exercitii OOP
 
 
-        Animal caine= new Animal("Rex","neagra",false);
+        //Animal1 caine= new Animal1("Rex","neagra",false);
 
-        Animal urs = new Animal("Barny", "albastra", false);
+        //Animal1 urs = new Animal1("Barny", "albastra", false);
 
 
-        caine.mananca();
-        caine.doarme();
-        System.out.println(caine.afiseaza());
+        //caine.mananca();
+        //caine.doarme();
+        //System.out.println(caine.afiseaza());
 
-        urs.mananca();
-        urs.doarme();
-        System.out.println(urs.afiseaza());
+        ///urs.mananca();
+        //urs.doarme();
+        //System.out.println(urs.afiseaza());
 
         //  masina masina5=new masina();
         //   System.out.println(masina5.marca);
@@ -92,10 +92,22 @@ public class Main {
         inotator1.seAntreneaza();
         inotator1.seOdihneste();
 
+        Mamifer mamifer1 = new Mamifer();
+        mamifer1.scoateSunete();
+
 
         Maratonist maratonist1 = new Maratonist();
         maratonist1.seAntreneaza();
         maratonist1.seOdihneste();
+
+        System.out.println("ex3");
+
+        Caine caine1 = new Caine();
+        caine1.scoateSunete();
+
+
+        Pisica pisica1 = new Pisica();
+        pisica1.scoateSunete();
 
 
 
