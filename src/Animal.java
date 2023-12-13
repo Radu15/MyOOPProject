@@ -1,25 +1,25 @@
-abstract class Animal1 {
+abstract class Animal {
     String nume;
     String culoare;
     boolean vegetarian;
 
-    public Animal1() {
+    public Animal() {
         nume = "unknown";
         culoare = "unknown";
         vegetarian = false;
     }
 
-    public Animal1(String nume, String culoare, boolean vegetarian) {
+    public Animal(String nume, String culoare, boolean vegetarian) {
         this.nume = nume;
         this.culoare = culoare;
         this.vegetarian = vegetarian;
     }
 
-    void Animal1(String nume) {
+    void Animal(String nume) {
         this.nume = nume;
     }
 
-    void Animal1(String nume, String culoare) {
+    void Animal(String nume, String culoare) {
         this.nume = nume;
         this.culoare = culoare;
     }
