@@ -117,9 +117,6 @@ public class Main {
         // Mamifer pisica4=new Mamifer();
         // Pisica pisica5=(Pisica) pisica4;
 
-        
-
-
 
     }
 }
