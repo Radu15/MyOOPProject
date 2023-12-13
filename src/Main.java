@@ -45,8 +45,8 @@ public class Main {
         System.out.println(persoana1.nume);
         System.out.println(persoana1.prenume);
 
-        Persoana persoana2 = new Persoana("Ion", "Popescu");
-        System.out.println(persoana2.nume + persoana2.varsta + persoana2.sex);
+        Persoana persoana2 = new Persoana("Radu", "Chis");
+        System.out.println(persoana2.nume + persoana2.varsta + persoana2.sex + persoana2.prenume);
 
         Persoana persoana3 = new Persoana(24,"M","Ionescu");
         System.out.println("Nume: "+ persoana3.nume);
@@ -56,24 +56,26 @@ public class Main {
         // Exercitii OOP
 
 
-        //Animal1 caine= new Animal1("Rex","neagra",false);
+        Animal caine = new Animal("Rex", "neagra", false);
 
-        //Animal1 urs = new Animal1("Barny", "albastra", false);
+        Animal urs = new Animal("Barny", "albastra", false);
 
 
-        //caine.mananca();
-        //caine.doarme();
-        //System.out.println(caine.afiseaza());
+        caine.mananca();
+        caine.doarme();
+        System.out.println(caine.afiseaza());
 
-        ///urs.mananca();
-        //urs.doarme();
-        //System.out.println(urs.afiseaza());
+        urs.mananca();
+        urs.doarme();
+        System.out.println(urs.afiseaza());
 
         //  masina masina5=new masina();
         //   System.out.println(masina5.marca);
 
         //  masina masina6=new masina("tesla",2022);
         //   System.out.println(masina6.marca+" ")
+
+
         Elev elev1 = new Elev("Ionescu");
         Elev elev2 = new Elev("Popescu");
         System.out.println(elev1.nume);

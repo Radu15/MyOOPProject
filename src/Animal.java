@@ -1,4 +1,4 @@
-abstract class Animal {
+class Animal {
     String nume;
     String culoare;
     boolean vegetarian;
@@ -28,23 +28,12 @@ abstract class Animal {
         System.out.println(nume + " mananca");
     }
 
-    public void doarme(){
+    void doarme() {
         System.out.println(nume + " doarme");
     }
     public String afiseaza(){
         return nume+ " are culoarea "+ culoare;
     }
 
-    public void scoateSunet() {
-        System.out.println(nume + "scoateSunete");
-
-    }
-
-    public void miauna() {
-        System.out.println(nume + "miauna");
-    }
-
-
-    abstract void scoateSunete();
 
 }
