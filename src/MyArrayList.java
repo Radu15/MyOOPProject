@@ -17,5 +17,29 @@ public class MyArrayList {
         System.out.println(listaNoastra.size());
         System.out.println(listaNoastra.contains("Second"));//sa caute""
         System.out.println(listaNoastra.indexOf("Second"));//pe ce pozitie
+
+
+        // Exercitii - Structuri de date
+        //Adaugati o lista de cursuri cu elementele: Testare manuala, Testara automata, Front-end, Java.
+        //Afisati elementul de pe a doua pozitie si lungimea listei.
+        //Scrieti o metoda care afiseaza toate elementele.
+
+        ArrayList<String> cursuri = new ArrayList<>();
+        cursuri.add("Testare manuala");
+        cursuri.add("Testare automata");
+        cursuri.add("Front-end");
+        cursuri.add("Java");
+
+        System.out.println(cursuri.get(1));
+        System.out.println(cursuri.size());
+
+        afisareLista(cursuri);
+
+    }
+
+    public static void afisareLista(ArrayList<String> lista) {
+        for (String element : lista) {
+            System.out.println(element);
+        }
     }
 }
