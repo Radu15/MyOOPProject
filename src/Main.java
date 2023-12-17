@@ -90,10 +90,11 @@ public class Main {
         film1.setTitlu("Titanic");
         System.out.println(film1.getTitlu());
 
+
         Inotator inotator1 = new Inotator("Romania", "fluture");
         inotator1.seAntreneaza();
         inotator1.seOdihneste();
-        System.out.println(inotator1.tara);
+
 
         Mamifer mamifer1 = new Pisica();
         mamifer1.scoateSunete();

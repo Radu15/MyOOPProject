@@ -6,6 +6,7 @@ public class Maratonist extends Sportiv {
     @Override
     void seAntreneaza() {
         System.out.println("Maratonistul se antreneaza");
+        System.out.println("Maratonistul din " + tara + " se antreneaza la " + sport);
     }
 
     public void seOdihneste() {

@@ -1,7 +1,7 @@
 abstract class Sportiv {
     String tara;
     String sport;
-    Abilitate abilitate;
+    Abilitate Abilitate;
     abstract void seAntreneaza();// nuare continut{}
 
     public void seOdihneste() {
@@ -10,5 +10,6 @@ abstract class Sportiv {
 
     public Sportiv(String tara, String sport) {
         this.tara = tara;
+        this.sport = sport;
     }
 }
