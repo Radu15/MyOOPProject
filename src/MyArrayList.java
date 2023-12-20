@@ -38,8 +38,10 @@ public class MyArrayList {
     }
 
     public static void afisareLista(ArrayList<String> lista) {
+        System.out.println("Eldementele listei sunt");
         for (String element : lista) {
             System.out.println(element);
         }
     }
+
 }

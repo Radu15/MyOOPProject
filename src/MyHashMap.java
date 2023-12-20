@@ -42,6 +42,12 @@ public class MyHashMap {
         studenti.put("Raul", false);
         studenti.put("Ion", true);
 
+        for (String student : studenti.keySet()) {
+            if (studenti.get(student)) {
+                System.out.println(student);
+            }
+        }
+
         afiseazaStudentiPromovati(studenti);
     }
 
